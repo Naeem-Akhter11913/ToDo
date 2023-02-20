@@ -1,4 +1,4 @@
-// alert("jagha khali na chhodna");
+alert("jagha khali na chhodna");
 var WorkToBeDo = document.getElementById('inpName');
 var btn = document.getElementById('button-addon2');
 let btn_text = btn.innerText
@@ -19,7 +19,7 @@ function fetchData() {
 
     const str = WorkToBeDo.value;
     if (str == '') {
-        alert("fdfdfd")
+        alert("Kam chor Bosdk 🤣🤣")
     } else if (edit_id != null) {
         arrayData.splice(edit_id, 1, { 'name': str })
     } else {
